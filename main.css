@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.rice {
+  background-color: #7DBFEB;
+  text: white;
+  padding: 20px;
+  min-width: 400px;
+  float: right;
+  width: 68%;
+}
+
+.line {
+  background-color: #7DBFEB;
+}
+
+h1 {
+  color: white
+}
+
+p {
+  color: white
+}
+
+.time1 {
+  float: left;
+  width: 22%;
+}
+
+.time1, h4 {
+  font-size: .5em;
+  color: #C4CDD7
+}
+
+.time1, h3 {
+  font-size: 1.5em;
+  color: #7DBFEB;
+}
